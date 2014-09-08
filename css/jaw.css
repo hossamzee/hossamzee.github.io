@@ -1,0 +1,165 @@
+
+            
+@import url("http://fnt.webink.com/wfs/webink.css/?project=464476C8-FA6D-41E3-9724-47F0659CEEEC&fonts=A3E9480D-085A-D401-D185-2AFF0366B549:f=MyriadArabic-Bold,D2326F8C-E83C-F7E1-03F0-F7283B54AB4E:f=MyriadArabic-Semibold,B096500C-9357-1AD5-0374-AF01ECDCE410:f=MyriadArabic-It,3867596A-F5D3-84CD-D2D3-CDBDD201A10A:f=MyriadArabic-LightIt,6696B910-3610-C508-579D-5F0E835F9280:f=MyriadArabic-Black,2E5D0B31-05BA-5BD3-E3C0-94486C791079:f=MyriadArabic-SemiboldIt,B2F5AA4A-E647-C05C-5B22-7AA170E3861B:f=MyriadArabic-BoldIt,69B7E51B-AAFF-8005-B64B-864BE4233520:f=MyriadArabic-Regular,B9C8DA81-F5CB-91D3-9223-51215A27E8D2:f=MyriadArabic-Light,D65E5BC3-E048-F476-31FE-DC2C4DFA9CD4:f=MyriadArabic-BlackIt");
+
+.MyriadArabic-Regular {
+    font-family: "MyriadArabic-Regular" !important;
+}
+
+.MyriadArabic-LightIt {
+    font-family: "MyriadArabic-LightIt" !important;
+}
+
+.MyriadArabic-Light {
+    font-family: "MyriadArabic-Light" !important;
+}
+
+.MyriadArabic-Semibold {
+    font-family: "MyriadArabic-Semibold" !important;
+}
+
+.MyriadArabic-SemiboldIt {
+    font-family: "MyriadArabic-SemiboldIt" !important;
+}
+
+.MyriadArabic-It {
+    font-family: "MyriadArabic-It" !important;
+}
+
+.MyriadArabic-BoldIt {
+    font-family: "MyriadArabic-BoldIt" !important;
+}
+
+.MyriadArabic-Bold {
+    font-family: "MyriadArabic-Bold" !important;
+}
+
+.MyriadArabic-Black {
+    font-family: "MyriadArabic-Black" !important;
+}
+
+.MyriadArabic-BlackIt {
+    font-family: "MyriadArabic-BlackIt" !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+html {
+	direction: rtl;
+	font-family: "MyriadArabic-Regular" !important;
+}
+
+body {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+a {
+	color: #e31784;
+	text-decoration: none;
+	border-bottom:1px dotted;
+}
+
+ul, ol {
+	margin-right: 26px;
+}
+
+.container {
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+nav {
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+article .heading {
+	margin-bottom: 20px;
+}
+
+article .heading h1 {
+	font-family: "MyriadArabic-Bold" !important;
+}
+
+article .heading h3 {
+	font-family: "MyriadArabic-Bold" !important;
+	color: #666;
+}
+
+article p, article ol {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+article .note {
+	padding: 10px;
+	color: #f18bc1;
+	border: 1px solid #f18bc1;
+}
+
+.block {
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.block small {
+	font-size: 14px;
+	margin-right: 4px;
+}
+
+.block small:before {
+	content: "\003C";
+}
+
+.block small:after {
+	content: "\003E";
+}
+
+.block-default {
+	border: 1px solid #ffbc19;
+	color: #ffbc19;
+}
+
+.date {
+	color: #929292;
+}
+
+.date:before {
+	content: "\003C";
+}
+
+.date:after {
+	content: "\003E";
+}
+
+.ul-right, .ol-right {
+	text-align: justify;
+}
+
+footer {
+	padding: 20px;
+}
+
