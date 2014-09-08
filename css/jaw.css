@@ -1,6 +1,6 @@
 
-@font-face{font-family:'MyriadArabic-Regular';src:url('../fonts/MyriadArabic-Regular.woff') format('woff');font-weight:normal;font-style:normal;}
-@font-face{font-family:'MyriadArabic-Bold';src:url('../fonts/MyriadArabic-Bold.woff') format('woff');font-weight:normal;font-style:normal;}
+@font-face{font-family:'MyriadArabic-Regular';src:url('http://hossamzee.s3.amazonaws.com/fonts/MyriadArabic-Regular.woff') format('woff');font-weight:normal;font-style:normal;}
+@font-face{font-family:'MyriadArabic-Bold';src:url('http://hossamzee.s3.amazonaws.com/fonts/MyriadArabic-Bold.woff') format('woff');font-weight:normal;font-style:normal;}
 
 * {
 	margin: 0;
