@@ -1,6 +1,19 @@
 
-@font-face{font-family:'MyriadArabic-Regular';src:url('http://hossamzee.s3.amazonaws.com/fonts/MyriadArabic-Regular.woff') format('woff');font-weight:normal;font-style:normal;}
-@font-face{font-family:'MyriadArabic-Bold';src:url('http://hossamzee.s3.amazonaws.com/fonts/MyriadArabic-Bold.woff') format('woff');font-weight:normal;font-style:normal;}
+/* This font should not be used but after having Adobe permission. */
+@font-face{
+	font-family:"MyriadArabicRegular";
+	src:url("../fonts/MyriadArabicRegular.woff") format("woff");
+	font-weight:normal;
+	font-style:normal;
+}
+
+/* This font should not be used but after having Adobe permission. */
+@font-face{
+	font-family:"MyriadArabicBold";
+	src:url("../fonts/MyriadArabicBold.woff") format("woff");
+	font-weight:normal;
+	font-style:normal;
+}
 
 * {
 	margin: 0;
@@ -10,7 +23,7 @@
 
 html {
 	direction: rtl;
-	font-family: "MyriadArabic-Regular" !important;
+	font-family: "MyriadArabicRegular" !important;
 }
 
 body {
@@ -60,11 +73,11 @@ article .heading {
 }
 
 article .heading h1 {
-	font-family: "MyriadArabic-Bold" !important;
+	font-family: "MyriadArabicBold" !important;
 }
 
 article .heading h3 {
-	font-family: "MyriadArabic-Bold" !important;
+	font-family: "MyriadArabicBold" !important;
 	color: #666;
 }
 
