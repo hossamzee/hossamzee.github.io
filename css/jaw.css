@@ -132,6 +132,10 @@ article .note {
 	text-align: justify;
 }
 
+strike {
+	color: #ccc;
+}
+
 footer {
 	padding: 20px;
 }
