@@ -136,6 +136,12 @@ strike {
 	color: #ccc;
 }
 
+pre {
+	direction: ltr;
+	text-align: left;
+	font-size: 14px;
+}
+
 footer {
 	padding: 20px;
 }
