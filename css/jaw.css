@@ -42,6 +42,10 @@ ul, ol {
 	margin-right: 26px;
 }
 
+.article_image {
+	width: 100%;
+}
+
 .container {
 	padding-right: 20px;
 	padding-left: 20px;
@@ -52,6 +56,10 @@ ul, ol {
 @media (min-width: 768px) {
 	.container {
 		width: 750px;
+	}
+
+	.article_image {
+		max-width: 750px;
 	}
 }
 
