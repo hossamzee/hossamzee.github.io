@@ -1,0 +1,71 @@
+
+.block-vulnerabile-title {
+  background-color: #CC3300;
+  color: #fff; margin-bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.block-vulnerabile-title h1 {
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+}
+
+.block-vulnerabile-title h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  font-size: 24px;
+}
+
+
+.block-vulnerabile-item {
+  background-color: #FF4719;
+  color: #fff; margin-bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.block-vulnerabile-item h1 {
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+}
+
+.block-vulnerabile-item h2 {
+  text-align: center;
+  padding-bottom: 10px; margin-top: -10px;
+  font-size: 24px; font-weight: normal;
+  font-family: "MyriadArabicBold" !important;
+}
+
+.block-vulnerabile-item h2 small:before {
+  content: "(";
+}
+
+.block-vulnerabile-item h2 small:after {
+  content: ")";
+}
+
+.block-vulnerabile-item h2 small {
+  font-size: 24px;
+}
+
+.block-vulnerabile-item p {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.block-vulnerabile-item a {
+  color: #FFFF99;
+}
+
+.block-vulnerable-coffee {
+  background-color: #000;
+}
