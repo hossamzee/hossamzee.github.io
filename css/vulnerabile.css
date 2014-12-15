@@ -71,5 +71,6 @@
 }
 
 .block-vulnerable-coffee h1 {
-  font-size: 60px;
+  font-size: 30px;
+  padding: 20px;
 }
