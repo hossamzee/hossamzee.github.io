@@ -69,3 +69,7 @@
 .block-vulnerable-coffee {
   background-color: #000;
 }
+
+.block-vulnerable-coffee h1 {
+  font-size: 60px;
+}
