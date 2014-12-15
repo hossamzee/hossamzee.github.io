@@ -133,12 +133,13 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>7</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>الضعف في إدارة الجلسات
+					<small>Weak Session Management</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					يحدث هذا حينما يقوم تطبيق الويب بإنتاج حلوى جلسة (Session Cookie) تحوي قيمةً سهلةَ التخمين، كأن تكون ختم الوقت (UNIX timestamps) أو تشفير الختم بواسطة خوارزمية MD5، و هكذا.
+					<a href="http://en.wikipedia.org/wiki/HTTP_cookie#Cookie_theft_and_session_hijacking">[7]</a>
+					<a href="http://en.wikipedia.org/wiki/Session_hijacking">[8]</a>.
 				</p>
 			</div>
 		</article>
