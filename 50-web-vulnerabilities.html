@@ -745,12 +745,11 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>48</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
-				</h2>
+				<h2>عدم استخدام X-Frame-Options</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					هذا الرأس يحدّد ما إذا كان ينبغي للمتصفّح أن يقدّم الصفحة داخل <frame> أو <iframe>. تطبيقات الويب يمكنها استخدام هذا لتجنّب هجمات الاصطياد بالنقر (Clickjacking) وذلك عن طريق ضمان أن المحتوى لا يتضمّن مواقعاً أخرى.
+					<a href="http://en.wikipedia.org/wiki/Clickjacking">[59]</a>
+					<a href="http://en.wikipedia.org/wiki/X-FRAME-OPTIONS#Frame-Options">[60]</a>.
 				</p>
 			</div>
 		</article>
