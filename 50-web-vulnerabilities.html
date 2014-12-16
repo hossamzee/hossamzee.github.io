@@ -283,12 +283,13 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>17</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>تطعيم CRLF
+					<small>CRLF Injection</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					عبارة عن سلسلة من الحروف (0x0D وَ 0x0A بالتمثيل الست عشري) يستخدمها بروتوكول HTTP كفاصلٍ بين الأسطر. هجوم تطعيم CRLF يحدث حينما يتمكن المهاجم من إجبار التطبيق من إرجاع سلسة CRLF مضافاً إليها مُدخلات المهاجم كجزء من رؤوس الرد (Response Headers).
+					<a href="https://www.owasp.org/index.php/CRLF_Injection">[20]</a>
+					<a href="https://www.owasp.org/index.php/HTTP_Request_Smuggling">[21]</a>.
 				</p>
 			</div>
 		</article>
