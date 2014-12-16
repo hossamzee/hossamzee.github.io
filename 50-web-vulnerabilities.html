@@ -671,12 +671,13 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>43</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>تسرّب رابط الإحالة
+					<small>Referer Leakage</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					رأس HTTP Referer يُستخدم لتخزين الرابط الذي قَدِم منه المُستخدم. معلوماتٍ سرّيةٍ حول المستخدم قد تُسرّب إذا حُفظت في معلّمات الاستعلام (Query Parameters) و المُستخدمة بواسطة التطبيق.
+					<a href="https://www.owasp.org/index.php/Command_injection">[50]</a>
+					<a href="http://www.w3.org/2011/track-privacy/papers/Wills.pdf">[51]</a>.
 				</p>
 			</div>
 		</article>
