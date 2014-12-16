@@ -758,12 +758,14 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>49</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>تعطيل حماية XSS
+					<small>XSS Protection Disabled</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					تقنيّة حماية XSS البسيطة حاضرةً في كلّ متصفّحٍ حديث. تُعدّ هذه التقنيّة مفعلّة افتراضيّاً لكن يمكن تعطيلها من خلال تغيير قيمة رأس الرد “X-XSS-Protection" لتكون “0”.
+					<a href="https://wiki.mozilla.org/Security/Features/XSS_Filter">[61]</a>
+					<a href="http://msdn.microsoft.com/en-us/library/dd565647%28v=vs.85%29.aspx">[62]</a>
+					<a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Common_non-standard_response_headers">[63]</a>.
 				</p>
 			</div>
 		</article>
