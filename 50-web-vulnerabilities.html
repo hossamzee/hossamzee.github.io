@@ -365,12 +365,12 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>22</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>إعادة التوجيه المفتوح
+					<small>Open Redirect</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					ثغرةٌ يأخذ فيها التطبيق مُدخلات المستخدم ليولّد نوعاً من أنواع إعادة التوجيه دون التحقّق من الموقع المُراد إعادة التوجيه إليه.
+					<a href="https://www.owasp.org/index.php/Open_redirect">[27]</a>.
 				</p>
 			</div>
 		</article>
@@ -379,12 +379,13 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>23</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>تقسيم الرد
+					<small>Response Splitting</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					يحدث حينما يتم تمرير بياناتٍ غير منقّحةٍ إلى التطبيق المعرّض للهجوم و يتمّ استخدام هذه البيانات لتكوين رؤوس الرد، قد يُجبر المهاجمُ خادمَ الويب على تكوين شكلٍ مشوّهٍ من المخرجات المتدفّقة، و الذي يتم تفسيره لاحقاً من قبل متصفّح الضحيّة على أنّه ردّي HTTP بدلاً من ردٍ واحد. يُعتبر هذا النوع من الهجوم مفيداً مع المفوّضين (Proxies) أو عندما يستخدم المتصّفح الطلب المُأنبب (Request Pipelining).
+					<a href="http://en.wikipedia.org/wiki/HTTP_response_splitting">[28]</a>
+					<a href="https://www.owasp.org/index.php/HTTP_Request_Smuggling">[29]</a>.
 				</p>
 			</div>
 		</article>
