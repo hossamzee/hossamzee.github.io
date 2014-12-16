@@ -6,7 +6,6 @@
 }
 
 .block-vulnerabile-title h1 {
-  -webkit-text-stroke: 1px black;
   text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
   font-size: 120px;
   font-weight: bold;
@@ -29,7 +28,6 @@
 }
 
 .block-vulnerabile-item h1 {
-  -webkit-text-stroke: 1px black;
   text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
   font-size: 100px;
   font-weight: bold;
