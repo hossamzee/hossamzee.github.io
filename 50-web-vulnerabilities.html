@@ -717,12 +717,12 @@
 		<article>
 			<div class="block block-vulnerabile-item">
 				<h1>46</h1>
-				<h2>تطعيم الأوامر
-					<small>Command Injection</small>
+				<h2>حقل ViewState غير مشفّر
+					<small>ViewState Not Encrypted</small>
 				</h2>
 				<p>
-					تقنيّة تمكّن المُهاجم من تنفيذ أوامرَ على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
-					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+					حقل ViewState يُستخدم في تطبيقات ASP.NET لحفظ حالة التطبيق الحاليّة. إذا كان الحقل يُستخدم لتخزين بياناتٍ حسّاسةٍ، مثل تفاصيل المستخدم، فيفترض أن يكون مشفّراً لضمان سلامة البيانات.
+					<a href="http://msdn.microsoft.com/en-us/library/ms972976.aspx#viewstate_topic12">[57]</a>.
 				</p>
 			</div>
 		</article>
