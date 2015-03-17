@@ -153,3 +153,24 @@ pre {
 footer {
 	padding: 20px;
 }
+
+.figure{
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.light-green{
+	background-color: rgb(201, 255, 5);
+}
+
+.light-yellow{
+	background-color: rgb(249, 255, 5);
+}
+
+.dark-blue{
+	background-color: rgb(5, 102, 255);
+}
+
+.black{
+	background-color: #000;
+}
