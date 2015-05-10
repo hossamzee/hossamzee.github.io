@@ -136,6 +136,10 @@ article .note {
 	content: "\003E";
 }
 
+.time {
+	color: #929292;
+}
+
 .ul-right, .ol-right {
 	text-align: justify;
 }
