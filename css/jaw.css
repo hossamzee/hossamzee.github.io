@@ -2,7 +2,7 @@
 /* This font should not be used but after having Typotheque permission. */
 @font-face{
 	font-family: "FedraARDemi";
-	src: url("../fonts/FedraARDemi.woff") format("woff");
+	src: url("../fonts/FedraARDemi.otf") format("otf");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -10,7 +10,7 @@
 /* This font should not be used but after having Typotheque permission. */
 @font-face{
 	font-family: "FedraARBold";
-	src: url("../fonts/FedraARBold.woff") format("woff");
+	src: url("../fonts/FedraARBold.otf") format("otf");
 	font-weight: normal;
 	font-style: normal;
 }
