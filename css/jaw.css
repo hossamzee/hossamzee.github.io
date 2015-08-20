@@ -1,18 +1,18 @@
 
-/* This font should not be used but after having Adobe permission. */
+/* This font should not be used but after having Typotheque permission. */
 @font-face{
-	font-family:"MyriadArabicRegular";
-	src:url("../fonts/MyriadArabicRegular.woff") format("woff");
-	font-weight:normal;
-	font-style:normal;
+	font-family: "FedraARDemi";
+	src: url("../fonts/FedraARDemi.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
-/* This font should not be used but after having Adobe permission. */
+/* This font should not be used but after having Typotheque permission. */
 @font-face{
-	font-family:"MyriadArabicBold";
-	src:url("../fonts/MyriadArabicBold.woff") format("woff");
-	font-weight:normal;
-	font-style:normal;
+	font-family: "FedraARBold";
+	src: url("../fonts/FedraARBold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 * {
@@ -23,7 +23,7 @@
 
 html {
 	direction: rtl;
-	font-family: "MyriadArabicRegular" !important;
+	font-family: "FedraARDemi" !important;
 }
 
 body {
@@ -81,11 +81,11 @@ article .heading {
 }
 
 article .heading h1 {
-	font-family: "MyriadArabicBold" !important;
+	font-family: "FedraARBold" !important;
 }
 
 article .heading h3 {
-	font-family: "MyriadArabicBold" !important;
+	font-family: "FedraARBold" !important;
 	color: #666;
 }
 
