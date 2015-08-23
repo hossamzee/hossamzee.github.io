@@ -163,6 +163,15 @@ footer {
 	padding: 20px;
 }
 
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
 .figure{
 	margin-bottom: 20px;
 	padding: 20px;
