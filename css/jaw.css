@@ -211,9 +211,9 @@ iframe{
 	width: 100%;
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 	article .ul-right li a {
 		display: block;
 		margin-bottom: 10px;
 	}
-}
+}*/
