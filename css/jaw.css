@@ -27,24 +27,35 @@ html {
 }
 
 body {
-	margin-top: 20px;
+	margin-top: 40px;
 	text-align: center;
 	font-size: 15px;
 	line-height: 1.8;
+	background-color: #ffda00;
 }
 
 a {
-	color: #e31784;
+	color: #000;
 	text-decoration: none;
 	border-bottom:1px dotted;
 }
 
 ul, ol {
-	margin-right: 26px;
+	list-style: none;
+}
+
+header a{
+	border: 0;
+}
+
+header img{
+	width: 110px;
+	margin-bottom: 10px;
 }
 
 header h1 {
 	font-family: "FedraARBold";
+	font-size: 22px;
 }
 
 .article_image {
@@ -87,6 +98,7 @@ article .heading {
 
 article .heading h1 {
 	font-family: "FedraARBold" !important;
+	font-size: 22px;
 }
 
 article .heading h3 {
@@ -101,8 +113,8 @@ article p, article ol {
 
 article .note {
 	padding: 10px;
-	color: #f18bc1;
-	border: 1px solid #f18bc1;
+	color: #000;
+	border: 1px solid #000;
 }
 
 .block {
@@ -125,24 +137,18 @@ article .note {
 }
 
 .block-default {
-	border: 1px solid #ffbc19;
-	color: #ffbc19;
+	background-color: #fff;
+	color: #000;
 }
 
 .date {
-	color: #929292;
-}
-
-.date:before {
-	content: "\003C";
-}
-
-.date:after {
-	content: "\003E";
+	color: #ffda00; padding: 2px;
+	background-color: #000;
 }
 
 .time {
-	color: #929292;
+	color: #000;
+	margin-left: 2px;
 }
 
 .ul-right, .ol-right {
