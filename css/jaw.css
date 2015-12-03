@@ -137,8 +137,8 @@ article .note {
 }
 
 .block-default {
-	background-color: #fff;
 	color: #000;
+	border-bottom: 1px solid #000;
 }
 
 .date {
@@ -183,26 +183,11 @@ footer ul li {
 	padding: 20px;
 	padding-left: 0;
 	padding-right: 0;
+	border: 1px solid #000;
 }
 
 .figure img{
     max-width: 100%;
-}
-
-.light-green{
-	background-color: rgb(201, 255, 5);
-}
-
-.light-yellow{
-	background-color: rgb(249, 255, 5);
-}
-
-.dark-blue{
-	background-color: rgb(5, 102, 255);
-}
-
-.black{
-	background-color: #000;
 }
 
 iframe{
