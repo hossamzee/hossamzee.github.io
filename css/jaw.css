@@ -159,10 +159,13 @@ strike {
 	color: #ccc;
 }
 
-pre {
+.code{
 	direction: ltr;
 	text-align: left;
 	font-size: 14px;
+	border: 1px solid #000;
+	padding: 10px;
+	word-wrap: break-word;
 }
 
 footer {

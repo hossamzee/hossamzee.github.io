@@ -61,14 +61,13 @@
                 قد تواجه أثناء استخدامك لهذه الخدمة بعض المشاكل في الترميز وربما لن تتمكّن من استخدام الترميز العالمي utf8؛ وذلك لأن موبايلي يستخدم ترميز windows-1256 في الإرسال. الموقع يقدّم أكوادًا مكتوبة مسبقًا بلغات برمجة متعدّدة قابلة للاستخدام المباشر، وهذه ميزة تدعم -وبلا شك- استخدام الخدمة للإرسال.
             </p>
 
-<pre>
-<code class="php">http://www.mobily.ws/api/msgSend.php?mobile=966555555555&password=123456&numbers=966555 555555&sender=NEW%20SMS&msg=062706470644062700200648063306470644062700200628064300 20064506390020006D006F00620069006C0079002E00770073&applicationType=24
-</code>
-</pre>
+			<p class="code">
+				curl "http://www.mobily.ws/api/msgSend.php?mobile={username}&password={password}&numbers={numbers}&sender={sender}&msg={encoded_message}&applicationType=24"
+			</p>
 
-<p>
-	نموذج لرابط إرسال رسالة نصيّة قصيرة (SMS) عبر خدمة موبايلي.
-</p>
+			<p>
+				نموذج لرابط إرسال رسالة نصيّة قصيرة (SMS) عبر خدمة موبايلي.
+			</p>
 
 			<div class="heading">
 				<h3><a href="https://www.nexmo.com">Nexmo</a></h3>
@@ -82,14 +81,13 @@
 				و على الرغم من هذا كلّه، إلا أنّ الخدمة تواجه بعض القيود عند الرغبة في إرسال رسالة نصيّة قصيرة (SMS) إلى رقمٍ داخل الولايات المتحدّة الأمريكية، فمثلًا، لا يمكنك تضمين رمز اليورو (€) داخل النص، و لا استخدام اسم مرسل نصي بدلًا من مرسلٍ رقميّ إلا إذا دفعت مبلغًا إضافيًا، وبالنسبة للقيد الأخير فهو يتأتّى أيضًا في كندا <a href="https://help.nexmo.com/entries/22362928-USA-Canada-Direct-route">[6]</a>. الخدمة لها واجهة لطيفة و يمكن إعداد آليةً لشحنِ الرصيد تلقائيًا.
 			</p>
 
-			<pre>
-<code class="php">curl "https://rest.nexmo.com/sms/json?api_key={api_key}&api_secret={api_secret}&from=MyCompany20&to=447525856424&text=D%c3%a9j%c3%a0+vu"
-</code>
-</pre>
+			<p class="code">
+				curl "https://rest.nexmo.com/sms/json?api_key={api_key}&api_secret={api_secret}&from=MyCompany20&to=447525856424&text=D%c3%a9j%c3%a0+vu"
+			</p>
 
-<p>
-	نموذج لاستدعاء إرسال رسالة نصيّة قصيرة (SMS) عبر خدمة Nexmo.
-</p>
+			<p>
+				نموذج لاستدعاء إرسال رسالة نصيّة قصيرة (SMS) عبر خدمة Nexmo.
+			</p>
 
 			<div class="heading">
 				<h3><a href="https://www.twilio.com">Twilio</a></h3>
@@ -99,27 +97,17 @@
 				<s>و الآن بتّ استخدم</s> خدمة Twilio لإرسال الرسائل النصيّة القصيرة (SMS)، وهي خدمة أمريكيّة تحل مشكلة الإرسال إلى رقمٍ داخل الولايات المتحدة الأمريكية، و توفّر لك مثل سابقتها أرقامًا للشراء و الاستخدام، كما توفر واجهة سهلة مدعّمة بالاحصائيات و الأرقام، و توفر هذه الخدمة أيضًا واجهة برمجية للتطبيق (API) سهلة الاستخدام و لها حزم متوفرة على الانترنت.
 			</p>
 
-			<pre>
-<code class="php">curl -XPOST https://api.twilio.com/2010-04-01/Accounts/AC5ef8732a3c49700934481addd5ce1659/Messages.json
--d "Body=Jenny%20please%3F%21%20I%20love%20you%20&lt;3"
--d "To=%2B15558675309"
--d "From=%2B14158141829"
--d "MediaUrl=http://www.example.com/hearts.png"
--u 'AC5ef8732a3c49700934481addd5ce1659:{AuthToken}'
-</code>
-</pre>
+			<p class="code">
+				curl -XPOST https://api.twilio.com/2010-04-01/Accounts/AC5ef8732a3c49700934481addd5ce1659/Messages.json -d "Body=Jenny%20please%3F%21%20I%20love%20you" -d "To=%2B15558675309" -d "From=%2B14158141829" -d "MediaUrl=http://www.example.com/hearts.png" -u 'AC5ef8732a3c49700934481addd5ce1659:{AuthToken}'
+			</p>
 
-<p>
-	نموذج لاستدعاء إرسال رسالة نصيّة قصيرة (SMS) عبر خدمة Twilio.
-</p>
+			<p>
+				نموذج لاستدعاء إرسال رسالة نصيّة قصيرة (SMS) عبر خدمة Twilio.
+			</p>
 
 			<div class="heading">
 				<h3>خدمات إرسال رسائل نصيّة قصيرة (SMS) مفتوحة المصدر</h3>
 			</div>
-
-			<p>
-				ربما تكون ممّن لا يرغب في استخدام خدمة إرسال الرسائل النصيّة القصيرة (SMS) المدفوعة و ترغب في استخدام خدمتك الخاصة بك عبر قناتك الخاصة، فتأكّد أنّ لديك العديد من الخيارات، قد يمنحك هذا الخيار خصوصيةً أكثر و ضمانةً أنّه لا يمكن لطرف ثالث استخدام بيانات الرسائل لأي غرض كان. إلا أنك -وبالرغم من ذلك- قد تواجه مشكلةً في توثيق خدمتك لموفرّي خدمة الاتصالات لاعتبارهم أن مثل هذه الرسائل القادمة من مصدر مجهول أنّها رسائل اقتحامية.
-			</p>
 
 		</article>
 
