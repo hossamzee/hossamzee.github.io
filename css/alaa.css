@@ -81,9 +81,10 @@ body{
 	color: #fff;
 }
 
-#contact .heading{
+#contact h1{
 	background-color: transparent !important;
 	color: #fff !important;
+	box-shadow: 8px 0 0 #000, -8px 0 0 #000;
 }
 
 .slide-content{
@@ -123,11 +124,6 @@ a{
 .main-link{
 	background-color: #ccc;
 	padding: 8px; color: #000;
-}
-
-.heading{
-	background-color: #fff !important;
-	color: #000 !important;
 }
 
 @media (max-device-width: 480px){
