@@ -6,7 +6,7 @@
 
 *{
 	font-family: 'IndianTypeFoundryDiodrumArabicLight', serif;
-	padding: 0; margin: 0; font-size: 18px; font-weight: normal;
+	padding: 0; margin: 0; /*font-size: 18px;*/ font-weight: normal;
 }
 
 html{
@@ -81,7 +81,7 @@ body{
 	color: #fff;
 }
 
-#contact h1{
+#contact h2{
 	background-color: transparent !important;
 	color: #fff !important;
 	box-shadow: 8px 0 0 #000, -8px 0 0 #000;
@@ -93,14 +93,14 @@ body{
 	max-width: 600px; width: 90%
 }
 
-.slide-content h1{
+.slide-content h2{
 	display: inline; line-height: 2.3;
 	background-color: #fff !important;
 	color: #000 !important; padding: 8px 0;
 	box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;
 }
 
-.slide-content h1:after{
+.slide-content h2:after{
 	content: '\A';
 	white-space: pre;
 }
@@ -126,10 +126,10 @@ a{
 	padding: 8px; color: #000;
 }
 
-@media (max-device-width: 480px){
+/*@media (max-device-width: 480px){
 
 	*{
 		font-size: 16px;
 	}
 }
-
+*/
