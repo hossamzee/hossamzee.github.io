@@ -21,8 +21,8 @@ body{
 
 .slide{
 	display: flex;
-	background-color: #ededed;
-	background-image: url('../images/steps.png');
+	/*background-color: #ededed;*/
+	/*background-image: url('../images/steps.png');*/
 	justify-content: center;
 	align-items: center;
 	/*min-height: 24em;*/
@@ -31,7 +31,7 @@ body{
 	width: 100%;
 }
 
-#tamreen{
+/*tamreen{
 	background-color: #5ac000;
 	background-image: url('../images/tamreen-steps.png');
 }
@@ -69,7 +69,7 @@ body{
 #start{
 	background-color: #a3c197;
 	background-image: url('../images/start-steps.png');
-}
+}*/	
 
 #contact{
 	background-image: none;
@@ -84,7 +84,11 @@ body{
 #contact h2{
 	background-color: transparent !important;
 	color: #fff !important;
-	box-shadow: 8px 0 0 #000, -8px 0 0 #000;
+	/*box-shadow: 8px 0 0 #000, -8px 0 0 #000;*/
+}
+
+#contact p{
+	color: #fff !important;
 }
 
 .slide-content{
@@ -97,7 +101,7 @@ body{
 	display: inline; line-height: 2.3;
 	background-color: #fff !important;
 	color: #000 !important; padding: 8px 0;
-	box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;
+	/*box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;*/
 }
 
 .slide-content h2:after{
@@ -106,14 +110,16 @@ body{
 }
 
 .slide-content p{
-	background-color: #000; padding: 8px 0;
-	line-height: 2.3; color: #fff; display: inline;
-	box-shadow: 8px 0 0 #000, -8px 0 0 #000;
+	/*background-color: #000;*/ padding: 8px 0;
+	line-height: 2.3; /*color: #fff;*/ display: inline;
+	/*box-shadow: 8px 0 0 #000, -8px 0 0 #000;*/
+	/*box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;*/
 }
 
 a{
 	text-decoration: none;
-	color: #ccc;
+	/*color: #ccc;*/
+	color: #3600ff;
 }
 
 .links{
@@ -122,8 +128,9 @@ a{
 }
 
 .main-link{
-	background-color: #ccc;
+	/*background-color: #ccc;*/
 	padding: 8px; color: #000;
+	border: 1px solid #000;
 }
 
 /*@media (max-device-width: 480px){
