@@ -17,12 +17,12 @@ html{
 body{
 	height: 100%;
 	position: relative;
+	background-color: #ededed;
+	background-image: url('../images/steps.png');
 }
 
 .slide{
 	display: flex;
-	background-color: #ededed;
-	background-image: url('../images/steps.png');
 	justify-content: center;
 	align-items: center;
 	/*min-height: 24em;*/
