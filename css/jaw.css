@@ -1,20 +1,3 @@
-
-/* This font should not be used but after having Typotheque permission. */
-@font-face{
-	font-family: "FedraARDemi";
-	src: url("../fonts/FedraARDemi.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-/* This font should not be used but after having Typotheque permission. */
-@font-face{
-	font-family: "FedraARBold";
-	src: url("../fonts/FedraARBold.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
-}
-
 * {
 	margin: 0;
 	padding: 0;
@@ -23,7 +6,7 @@
 
 html {
 	direction: rtl;
-	font-family: "FedraARDemi" !important;
+	font-family: "XBKhoramshahrRegular", sans-serif;
 }
 
 body {
@@ -31,7 +14,7 @@ body {
 	text-align: center;
 	font-size: 15px;
 	line-height: 1.8;
-	background-color: #ffda00;
+	background-color: #fff;
 }
 
 a {
@@ -49,12 +32,12 @@ header a{
 }
 
 header img{
-	width: 110px;
+	width: 90px;
 	margin-bottom: 10px;
 }
 
 header h1 {
-	font-family: "FedraARBold";
+	font-family: "XBYagutBold";
 	font-size: 22px;
 }
 
@@ -97,12 +80,12 @@ article .heading {
 }
 
 article .heading h1 {
-	font-family: "FedraARBold" !important;
+	font-family: "XBYagutBold" !important;
 	font-size: 22px;
 }
 
 article .heading h3 {
-	font-family: "FedraARBold" !important;
+	font-family: "XBYagutBold" !important;
 	color: #666;
 }
 
@@ -142,8 +125,8 @@ article .note {
 }
 
 .date {
-	color: #ffda00; padding: 2px;
-	background-color: #000;
+	color: #ccc; padding: 2px;
+	/*background-color: #000;*/
 }
 
 .time {
