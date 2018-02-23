@@ -169,15 +169,18 @@ footer ul li {
 }
 
 .figure{
-	margin-bottom: 20px;
-	padding: 20px;
+	/*padding: 10px;*/
 	padding-left: 0;
 	padding-right: 0;
-	border: 1px solid #000;
 }
 
 .figure img{
     max-width: 100%;
+}
+
+.figure p{
+	text-align: center; margin-top: 10px;
+	color: #666; font-size: 14px;
 }
 
 iframe{
