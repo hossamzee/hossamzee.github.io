@@ -20,7 +20,7 @@ body {
 a {
 	color: #000;
 	text-decoration: none;
-	border-bottom:1px dotted;
+	border-bottom: 1px solid #ccc;
 }
 
 ul, ol {
@@ -96,8 +96,12 @@ article p, article ol {
 
 article .note {
 	padding: 10px;
-	color: #000;
-	border: 1px solid #000;
+	color: tomato;
+	border: 1px solid tomato;
+}
+
+article .note a {
+	color: tomato;
 }
 
 .block {
