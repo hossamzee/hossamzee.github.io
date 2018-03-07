@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+	<meta charset="utf-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Language" content="ar">
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="google-site-verification" content="xmq78SGX8Bs8Ow0ABWKJi5qbH69xBjrALjDTu6k2kP8" />
+
+	<link rel="stylesheet" type="text/css" href="css/jaw.css">
+	<link rel="stylesheet" type="text/css" href="css/vulnerabile.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<title>حسام الزغيبي - 50 ثغرة قد تكون في تطبيقك</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+			<h1>حسام الزغيبي</h1>
+			<p>مطوّر لتطبيقات الويب و الجوّال.</p>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">الأولى</a></li>
+				<li><a href="about.html">نبذة</a></li>
+			</ul>
+		</nav>
+
+		<article>
+			<p class="note">
+				هذه الصفحة مُستلهمة من صفحة <a href="//www.websecurify.com/overview/vulnerabilities.html">WebSecurity, Vulnerabilities</a> و تحوي 50 ثغرة قد يُصاب بها تطبيقك (تطبيق الويب غالباً).
+			</p>
+		</article>
+
+		<!-- Title -->
+		<article>
+			<div class="block block-vulnerabile-title">
+				<h1>50</h1>
+				<h2>ثغرة قد تكون في تطبيقك (تطبيق الويب غالباً).</h2>
+			</div>
+		</article>
+
+		<!-- 1 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>1</h1>
+				<h2>تطعيم الأوامر
+					<small>Command Injection</small>
+				</h2>
+				<p>
+					تقنيّة تمكّن المُهاجم من تنفيذ أوامر على النظام من خلال إساءة استخدام ميزةٍ ما، هذا التطعيم يحدث حينما يستخدم المطوّر مُدخلات المستخدم بهدف بناء و تنفيذ أمرٍ ما بواسطة الصدفة (shell) الخاصّة بالنظام
+					<a href="https://www.owasp.org/index.php/Command_injection">[1]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 2 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>2</h1>
+				<h2>تسجيل الدخول الإفتراضي
+					<small>Default Login</small>
+				</h2>
+				<p>
+					نوعٌ من أنواع تسجيل الدخول و الذي تكون فيه معلومات الدخول هي نفسها لكل النسخ لتطبيقٍ ما، تُستخدم لضمان الوصول للمرّة الأولى إلى لوحات تحكّم و مناطق إدارة الأجهزة
+					<a href="http://www.routerpasswords.com">[2]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 3 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>3</h1>
+				<h2>تضمين ملف محلّي
+					<small>Local File Include</small>
+				</h2>
+				<p>
+					ثغرةٌ تتيح للمُهاجم استدعاء أو فتح ملفات في الخادم، هذه الثغرة تحدث حينما يستقبل المطوّر مُدخلاتٍ غير منقّحة من المستخدم تهدف إلى فتح أو قراءة أو عرض محتوى ملفاتٍ ما
+					<a href="http://en.wikipedia.org/wiki/File_inclusion_vulnerability">[3]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 4 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>4</h1>
+				<h2>تطعيم الكود عن بعد
+					<small>Remote Code Injection</small>
+				</h2>
+				<p>
+					ثغرةٌ تتيح للمهاجم -و عن بُعدٍ- تطعيم الكود الخاص بتطبيقٍ ما بهدف تغيير تدفّق تنفيذه، هذا التطعيم يحدث بسبب حقيقة أن التطبيق مكتوبٌ بلغةٍ ما، و الذي يسمح بتنفيذ كودٍ أثناء وقت التشغيل
+					<a href="http://en.wikipedia.org/wiki/Code_injection">[4]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 5 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>5</h1>
+				<h2>تضمين ملف بعيد
+					<small>Remote File Include</small>
+				</h2>
+				<p>
+					ثغرةٌ تتيح للمُهاجم التلاعب بالتطبيق بهدف تضمين ملفٍ بعيدٍ مُستضاف لدى خادمٍ عند طرفٍ ثالث، هذا الملف يُمكن أن يكون تنفيذيّاً و مكتوباً بلغةٍ سكربتيّةٍ (Scripting Language)
+					<a href="http://en.wikipedia.org/wiki/File_inclusion_vulnerability">[5]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 6 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>6</h1>
+				<h2>تطعيم SQL
+					<small>SQL Injection</small>
+				</h2>
+				<p>
+					ثغرةٌ في طبقة قاعدة بياناتِ تطبيق الويب، تَحضُر هذه الثغرة حينما لا يتمّ تنقيح مُدخلات المستخدم من الحروف الخاصّة و التي تُضَمّن داخل تعليمة الـ SQL و تُنفّذ على إثر ذلك بطريقةٍ غير متوقّعة؛ بمعنى، أنّ تعليمة الـ SQL قد طُعّمت بواسطة مُدخلات المُستخدم
+					<a href="https://en.wikipedia.org/wiki/SQL_injection">[6]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 7 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>7</h1>
+				<h2>الضعف في إدارة الجلسات
+					<small>Weak Session Management</small>
+				</h2>
+				<p>
+					يحدث هذا حينما يقوم تطبيق الويب بإنتاج حلوى جلسة (Session Cookie) تحوي قيمةً سهلةَ التخمين، كأن تكون ختم الوقت (UNIX timestamps) أو تشفير الختم بواسطة خوارزمية MD5، و هكذا
+					<a href="http://en.wikipedia.org/wiki/HTTP_cookie#Cookie_theft_and_session_hijacking">[7]</a>
+					<a href="http://en.wikipedia.org/wiki/Session_hijacking">[8]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 8 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>8</h1>
+				<h2>تنفيذ سكربت عبر الموقع
+					<small>Cross-site Scripting, XSS</small>
+				</h2>
+				<p>
+					ثغرةٌ تتيح تطعيم كودٍ بواسطة مستخدمي ويبٍ مُريبين داخل صفحات الويب والتي يطّلع عليها مستخدمين آخرين
+					<a href="http://en.wikipedia.org/wiki/Cross-site_scripting">[9]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 9 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>9</h1>
+				<h2>تطعيم LDAP
+					<small>LDAP Injection</small>
+				</h2>
+				<p>
+					ثغرةٌ تتيح تطعيم الكود الذي يبني تعليمة LDAP و المعتمدة على مُدخلات المستخدم. LDAP هو بروتوكول تطبيق يستخدم للوصول و للإبقاء على خدمات المجلّدات الموزّعة مثل Active Directory الخاصّ بمايكروسوفت
+					<a href="https://www.owasp.org/index.php/LDAP_injection">[10]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 10 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>10</h1>
+				<h2>استكشاف المستضيف الافتراضيّ
+					<small>Virtual Host Discovery</small>
+				</h2>
+				<p>
+					طريقة الاستضافة الافتراضيّة تتيح لخادمٍ واحد أن يوفّر موارداً لعددٍ من تطبيقات الويب. وجود مستضيفات افتراضيّة عادةً ما يدلّ على أن التطبيق الهدف يُشارك موارده مع تطبيقٍ آخر، بمعنى، بيئة مستضيف مُشتَرك.
+				</p>
+			</div>
+		</article>
+
+		<!-- Coffee -->
+		<article>
+			<div class="block block-vulnerabile-item block-vulnerable-coffee">
+				<h1><i class="fa fa-coffee"></i></h1>
+			</div>
+		</article>
+
+		<!-- 11 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>11</h1>
+				<h2>التنفيذ الدائم لسكربت عبر الموقع
+					<small>Persistent Cross-site Scripting</small>
+				</h2>
+				<p>
+					نوعٌ من أنواع تنفيذ السكربتات عبر الموقع (Cross-site Scripting, XSS) حيث أن المحتوى المطعّم يتم تخزينه بشكل دائم على خادم أو تطبيق الويب، متى ما قام المستخدم بطلب صفحة مُصابة من الخادم فإن الحمولة (payload) تصل مباشرةً و مضمّنةً في الرد و لذلك يتم تنفيذها دون الحاجة إلى تدخّل المستخدم
+					<a href="http://en.wikipedia.org/wiki/Cross-site_scripting">[11]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 12 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>12</h1>
+				<h2>التفيذ المنعكس لسكربت عبر الموقع
+					<small>Reflected Cross-site Scripting</small>
+				</h2>
+				<p>
+					نوعٌ من أنواع تنفيذ السكربتات عبر الموقع (Cross-site Scripting, XSS) حيث أن الكود المطعّم ينعكس على الخادم، هذا النوع قصير العمر و يتطلّب عاملَ تصيّد (phishing) لإيصاله إلى الضحيّة
+					<a href="http://en.wikipedia.org/wiki/Cross-site_scripting">[12]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 13 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>13</h1>
+				<h2>تطعيم XML
+					<small>XML Injection</small>
+				</h2>
+				<p>
+					ثغرة يُمكن استخدامها بواسطة المُهاجم لتضمين كتلةٍ (Block) مُريبةٍ من XML، و التي يستخدمها لاحقاً مُعالج XML
+					<a href="https://www.owasp.org/index.php/Testing_for_XML_Injection_%28OWASP-DV-008%29">[13]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 14 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>14</h1>
+				<h2>تطعيم XPATH
+					<small>XPATH Injection</small>
+				</h2>
+				<p>
+					ثغرةٌ يُمكن استخدامها حينما يستخدم التطبيق مُدخلات المُستخدم لبناء استعلامات XPATH بهدف استقاء و كتابة بياناتٍ تخزّن على هيئة XML
+					<a href="https://www.owasp.org/index.php/XPATH_Injection">[14]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 15 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>15</h1>
+				<h2>تزييف الطلب عبر الموقع
+					<small>Cross-site Request Forgery, CSRF</small>
+				</h2>
+				<p>
+					هجومٌ يُجبر المستخدم على تنفيذ أوامرٍ غير مرغوبةٍ على تطبيق الويب والذي يمتلك لديه الصلاحية. التطبيقات المعرّضة لهذا الهجوم لا يُمكنها التمييز بين الطلبات المشروعة و الغير مشروعة
+					<a href="http://en.wikipedia.org/wiki/Cross-site_request_forgery">[15]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 16 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>16</h1>
+				<h2>سياسة النطاقات المتعدّدة المفتوحة
+					<small>Open Cross Domain Policy</small>
+				</h2>
+				<p>
+					ملف سياسة النطاقات المتعدّدة يستخدم في إجبار تطبيقات الويب (خاصّة تطبيقات Flash وَ Silverlight) أن تستخدم نفس أصل النطاق لمنع نطاقٍ آخر عند العميل من الوصول أو التعديل على بعض أنواع المحتوى. سياسة النطاقات المتعدّدة المفتوحة هي ثغرةٌ تحدث حينما يتيتح ضمنياً ملف السياسات كل نطاقٍ خارجي
+					<a href="http://en.wikipedia.org/wiki/Cross-domain_solution">[16]</a>
+					<a href="http://en.wikipedia.org/wiki/Same_origin_policy">[17]</a>
+					<a href="http://kb2.adobe.com/cps/142/tn_14213.html">[18]</a>
+					<a href="http://msdn.microsoft.com/en-us/library/cc197955%28v=vs.95%29.aspx">[19]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 17 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>17</h1>
+				<h2>تطعيم CRLF
+					<small>CRLF Injection</small>
+				</h2>
+				<p>
+					عبارة عن سلسلة من الحروف (0x0D وَ 0x0A بالتمثيل الست عشري) يستخدمها بروتوكول HTTP كفاصلٍ بين الأسطر. هجوم تطعيم CRLF يحدث حينما يتمكن المهاجم من إجبار التطبيق من إرجاع سلسة CRLF مضافاً إليها مُدخلات المهاجم كجزء من رؤوس الرد (Response Headers)
+					<a href="https://www.owasp.org/index.php/CRLF_Injection">[20]</a>
+					<a href="https://www.owasp.org/index.php/HTTP_Request_Smuggling">[21]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 18 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>18</h1>
+				<h2>الانتقال عبر المجلّد
+					<small>Directory Traversal</small>
+				</h2>
+				<p>
+					يهدف إلى الوصول إلى الملفات أو المجلّدات المخزّنة خارج مجلّد الويب من خلال تطعيم حروف تشير إلى “الانتقال إلى المجلّد الأب” مثل “../“ في يونكس. الهدف من هذا الهجوم هو إجبار تطبيقٍ ما على الوصول إلى ملفٍ لا ينوى الوصول إليه
+					<a href="http://en.wikipedia.org/wiki/Directory_traversal">[22]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 19 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>19</h1>
+				<h2>تطعيم الإطار
+					<small>Frame Injection</small>
+				</h2>
+				<p>
+					هجوم يُمكن من خلاله تطعيم إطارٍ في واجهة تطبيق الويب، عادةً ما يكون الإطار المطعّم إطاراً داخليّاً يشير إلى صفحة المُهاجم التي يتحكّم بها
+					<a href="http://en.wikipedia.org/wiki/Frame_injection">[23]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 20 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>20</h1>
+				<h2>إبطال الجلسة الغير مُلائم
+					<small>Inadequate Session Revocation</small>
+				</h2>
+				<p>
+					تحدث حينما لا يتم إبطال الجلسة بالشكل الصحيح بعد أن يقوم المستخدم بتسجيل الخروج
+					<a href="http://en.wikipedia.org/wiki/Session_management#Web_server_session_management">[24]</a>
+					<a href="https://www.owasp.org/index.php/Session_Management">[25]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- Coffee -->
+		<article>
+			<div class="block block-vulnerabile-item block-vulnerable-coffee">
+				<h1><i class="fa fa-coffee"></i></h1>
+			</div>
+		</article>
+
+		<!-- 21 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>21</h1>
+				<h2>إمكانيّات .NET في تقفّي الأثر
+					<small>.NET Tracing Capabilities</small>
+				</h2>
+				<p>
+					تقدّم .NET إمكانيات تنقيح (debugging) قويّة و التي قد يُمكن استغلالها من قبل المُهاجمين للحصول على عدّة معلوماتٍ حسّاسةٍ بما في ذلك حلوى الجلسة (session cookies) و حالة الجلسة (session state)
+					<a href="http://msdn.microsoft.com/en-us/library/wwh16c6c%28v=vs.100%29.aspx">[26]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 22 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>22</h1>
+				<h2>إعادة التوجيه المفتوح
+					<small>Open Redirect</small>
+				</h2>
+				<p>
+					ثغرةٌ يأخذ فيها التطبيق مُدخلات المستخدم ليولّد نوعاً من أنواع إعادة التوجيه دون التحقّق من الموقع المُراد إعادة التوجيه إليه
+					<a href="https://www.owasp.org/index.php/Open_redirect">[27]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 23 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>23</h1>
+				<h2>تقسيم الرد
+					<small>Response Splitting</small>
+				</h2>
+				<p>
+					يحدث حينما يتم تمرير بياناتٍ غير منقّحةٍ إلى التطبيق المعرّض للهجوم و يتمّ استخدام هذه البيانات لتكوين رؤوس الرد، قد يُجبر المهاجمُ خادمَ الويب على تكوين شكلٍ مشوّهٍ من المخرجات المتدفّقة، و الذي يتم تفسيره لاحقاً من قبل متصفّح الضحيّة على أنّه ردّي HTTP بدلاً من ردٍ واحد. يُعتبر هذا النوع من الهجوم مفيداً مع المفوّضين (Proxies) أو عندما يستخدم المتصّفح الطلب المُأنبب (Request Pipelining)
+					<a href="http://en.wikipedia.org/wiki/HTTP_response_splitting">[28]</a>
+					<a href="https://www.owasp.org/index.php/HTTP_Request_Smuggling">[29]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 24 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>24</h1>
+				<h2>عدم وسم حلوى الجلسة بوسم “فقط HTTP”
+					<small>Session Cookie not Flagged as HTTPOnly</small>
+				</h2>
+				<p>
+					وسم “فقط HTTP” يطبّق على رأس الرد Set-Cookie لتوضيح أنّ الحلوى (Cookies) لا يُمكن الوصول إليها بواسطة كودٍ مكتوبٍ ناحية العميل مثل Javascript، Flash، و غيرها من مكوّنات ناحية العميل
+					<a href="https://www.owasp.org/index.php/HttpOnly">[30]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 25 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>25</h1>
+				<h2>عدم وسم حلوى الجلسة بوسم “آمن”
+					<small>Session Cookie not Flagged as Secure</small>
+				</h2>
+				<p>
+					هذا الوسم يطبّق على رأس الرد Set-Cookie لتوضيح أن الحلوى (Cookies) لا يُمكن أن تُرسل من المتصفّح عبر قناةٍ غير آمنة مثل HTTP
+					<a href="http://en.wikipedia.org/wiki/HTTP_cookie#Secure_cookie">[31]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 26 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>26</h1>
+				<h2>وضع الجلسة
+					<small>Session Fixation</small>
+				</h2>
+				<p>
+					ثغرة تمكّن شخص ما من وضع معرّف الجلسة (SID) لشخصٍ آخر
+					<a href="http://en.wikipedia.org/wiki/Session_fixation">[32]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 27 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>27</h1>
+				<h2>تمكين الإكمال التلقائي
+					<small>Autocomplete Enabled</small>
+				</h2>
+				<p>
+					الإكمال التلقائي هي خصلة لوسم HTML تستخدم لتعطيل النموذج من استخدام تقنية الإكمال التلقائي في المتصفّح
+					<a href="http://dev.w3.org/html5/spec-LC/common-input-element-attributes.html#the-autocomplete-attribute">[33]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 28 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>28</h1>
+				<h2>تمكين سرد المجلّدات
+					<small>Directory Listing Enabled</small>
+				</h2>
+				<p>
+					سرد المجلّدات قد يكشف معلوماتٍ حول تطبيق الويب و بيئته و التي يفترض بها أن لا تكون واضحة للملأ
+					<a href="http://en.wikipedia.org/wiki/Webserver_directory_index">[34]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 29 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>29</h1>
+				<h2>خدمة SOAP المكتشفة
+					<small>Discovered SOAP Service</small>
+				</h2>
+				<p>
+					بروتوكول الوصول إلى العنصر البسيط (SOAP, Simple Object Access Protocol) هو بروتوكول مخصّص لتبادل المعلومات المركبّة كتطبيقٍ لخدمات الويب (Web Services). يعتمد على XML و استخدامه الرئيس هو لبناء خدمات API
+					<a href="http://en.wikipedia.org/wiki/SOAP">[35]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 30 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>30</h1>
+				<h2>كشف المسار
+					<small>Path Disclosure</small>
+				</h2>
+				<p>
+					عادةً ما يحدث هذا التسرّب بسبب كون التطبيق وصفيٌّ و بسبب أخطاء الخادم
+					<a href="https://www.owasp.org/index.php/Full_Path_Disclosure">[36]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- Coffee -->
+		<article>
+			<div class="block block-vulnerabile-item block-vulnerable-coffee">
+				<h1><i class="fa fa-coffee"></i></h1>
+			</div>
+		</article>
+
+		<!-- 31 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>31</h1>
+				<h2>تسرّب في المصدر
+					<small>Source Leakage</small>
+				</h2>
+				<p>
+					يحدث هذا بسبب خطأٍ في تكوين الإعدادات للخادم أو للتطبيق
+					<a href="http://en.wikipedia.org/wiki/Internet_leak#Source_Code_Leaks">[37]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 32 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>32</h1>
+				<h2>التطبيقات الإضافيّة
+					<small>Additional Applications</small>
+				</h2>
+				<p>
+					التطبيقات الغير مُشرَف عليها قد تأتي بأخطاءٍ و ثغراتٍ أمنيّةٍ و قد تهدّد أمن و سلامة خادم الويب
+					<a href="http://en.wikipedia.org/wiki/Chroot">[38]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 33 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>33</h1>
+				<h2>الملفات المشتركة
+					<small>Common Files</small>
+				</h2>
+				<p>
+					هي ملفاتٌ عادةً ما تكون قد تركت بواسطة مُنصّب تلقائي/إفتراضي و ليست بالضرورة مطلوبة لتطبيق الويب لكنّها تحوي معلوماتٍ حسّاسة
+					<a href="https://www.owasp.org/index.php/Testing_for_Old,_Backup_and_Unreferenced_Files_%28OWASP-CM-006%29">[39]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 34 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>34</h1>
+				<h2>تمكين وظائف خطرة
+					<small>Dangerous Methods Enabled</small>
+				</h2>
+				<p>
+					وظائف HTTP الغير شائعة مثل PUT، DELETE و غيرها من وظائف WEBDAV تعتبر خطرة
+					<a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods">[40]</a>
+					<a href="http://msdn.microsoft.com/en-us/library/aa142917%28v=exchg.65%29.aspx">[41]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 35 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>35</h1>
+				<h2>تمكين وظائف التنقيح
+					<small>Debug Methods Enabled</small>
+				</h2>
+				<p>
+					وظائف HTTP، TRACK وَ TRACE عادةً ما تستخدم لغرض التنقيح (debugging)
+					<a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods">[42]</a>
+					<a href="https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_%28OWASP-CM-008%29">[43]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 36 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>36</h1>
+				<h2>سرد المجلد ممنوع
+					<small>Directory Listing Denied</small>
+				</h2>
+				<p>
+					هذا الخطأ يتم توليده حين لا يوجد ملف index في المجلد المطلوب و أنّ الخادم أو التطبيق ليس مُعَدّاً لإظهار محتويات المجلّد، و هذا -على كلٍ- يُثبت أن المجلّد موجود
+					<a href="http://en.wikipedia.org/wiki/Webserver_directory_index">[44]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 37 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>37</h1>
+				<h2>رفع الملفات</h2>
+				<p>
+					عادةً ما تُعتبر خطرةً لأنّه قد يُساء استخدامها وذلك من خلال تنفيذ عدّة أنواع من الهجمات
+					<a href="http://www.w3.org/TR/2006/WD-file-upload-20061018/">[45]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 38 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>38</h1>
+				<h2>مستند Microsoft Office</h2>
+				<p>
+					تحوي مستندات Microsoft Office عادةً بياناتٍ وصفيّة مخفيّة مثل اسم المستخدم، اسم الكاتب، اسم الشركة، اسم الحاسوب، و التي استخدمت لإنشاء المستند و هكذا
+					<a href="http://office.microsoft.com/en-us/help/find-and-remove-metadata-hidden-information-in-your-legal-documents-HA001077646.aspx">[46]</a>
+					<a href="http://www.forensicswiki.org/wiki/Document_Metadata_Extraction#Office_Files">[47]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 39 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>39</h1>
+				<h2>مشاركة الموارد متعدّدة الأصل المفتوحة
+					<small>Open Cross-Origin Resource Sharing</small>
+				</h2>
+				<p>
+					مواصفة مشاركة الموارد متعدّدة الأصل (CORS) تمنح لتطبيقات الويب المقدرة على توفير مواردها للاستهلاك من قبل العامّة من نطاقاتٍ شتّى، تُستخدم CORS تحديداً لـ APIs متعدّدة الأصل و المصمّمة لتُستهلك بواسطة تطبيقات JavaScript
+					<a href="http://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing">[48]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 40 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>40</h1>
+				<h2>كلمة المرور عبر GET
+					<small>Password Via GET</small>
+				</h2>
+				<p>
+					تُعتبر عملية تمرير كلمة المرور عبر طريقة GET ممارسةً برمجيّةً خطأ لأنّه يُمكن قراءة المعلومة من شريط عنوان المتصفّح أو من التاريخ أو من سجلات خادم الويب
+				</p>
+			</div>
+		</article>
+
+		<!-- Coffee -->
+		<article>
+			<div class="block block-vulnerabile-item block-vulnerable-coffee">
+				<h1><i class="fa fa-coffee"></i></h1>
+			</div>
+		</article>
+
+		<!-- 41 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>41</h1>
+				<h2>مشاركة الموارد متعدّدة الأصل المتسامح
+					<small>Permissive Cross-Origin Resource Sharing</small>
+				</h2>
+				<p>
+					مواصفة مشاركة الموارد متعدّدة الأصل (CORS) تمنح لتطبيقات الويب المقدرة على توفير مواردها للاستهلاك من قبل العامّة من نطاقاتٍ شتّى، تُستخدم CORS تحديداً لـ APIs متعدّدة الأصل و المصمّمة لتُستهلك بواسطة تطبيقات JavaScript
+					<a href="http://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing">[49]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 42 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>42</h1>
+				<h2>ردُّ إعادة التوجيه بمحتوى
+					<small>Redirect Response With Body</small>
+				</h2>
+				<p>
+					يكون هذا عادةً بسبب خطأٍ برمجيّ أو مشكلةٍ أمنية.
+				</p>
+			</div>
+		</article>
+
+		<!-- 43 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>43</h1>
+				<h2>تسرّب رابط الإحالة
+					<small>Referer Leakage</small>
+				</h2>
+				<p>
+					رأس HTTP Referer يُستخدم لتخزين الرابط الذي قَدِم منه المُستخدم. معلوماتٍ سرّيةٍ حول المستخدم قد تُسرّب إذا حُفظت في معلّمات الاستعلام (Query Parameters) و المُستخدمة بواسطة التطبيق
+					<a href="https://www.owasp.org/index.php/Command_injection">[50]</a>
+					<a href="http://www.w3.org/2011/track-privacy/papers/Wills.pdf">[51]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 44 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>44</h1>
+				<h2>تقييد أمن النقل
+					<small>Strict Transport Security</small>
+				</h2>
+				<p>
+					رأس الـ HTTP هذا يُستخدم لإجبار المتصفّحات أن تتصّل بالتطبيق بواسطة إتّصال SSL
+					<a href="http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">[52]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 45 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>45</h1>
+				<h2>ملفات التحكّم بالإصدار
+					<small>Version Control Files</small>
+				</h2>
+				<p>
+					هذه الملفّات تُستخدم بواسطة برنامج للتحكّم بالإصدار لتخزين بياناتِ تعريفٍ و إعداداتٍ حول المستودع المُستخدم لتخزين الكود المصدري للتطبيق
+					<a href="http://en.wikipedia.org/wiki/Version_control">[53]</a>
+					<a href="http://en.wikipedia.org/wiki/Git_%28software%29">[54]</a>
+					<a href="http://en.wikipedia.org/wiki/Mercurial">[55]</a>
+					<a href="http://en.wikipedia.org/wiki/Apache_Subversion">[56]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 46 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>46</h1>
+				<h2>حقل ViewState غير مشفّر
+					<small>ViewState Not Encrypted</small>
+				</h2>
+				<p>
+					حقل ViewState يُستخدم في تطبيقات ASP.NET لحفظ حالة التطبيق الحاليّة. إذا كان الحقل يُستخدم لتخزين بياناتٍ حسّاسةٍ، مثل تفاصيل المستخدم، فيفترض أن يكون مشفّراً لضمان سلامة البيانات
+					<a href="http://msdn.microsoft.com/en-us/library/ms972976.aspx#viewstate_topic12">[57]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 47 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>47</h1>
+				<h2>حقل ViewState غير مُوقّع
+					<small>ViewState not Signed</small>
+				</h2>
+				<p>
+					حقل ViewState يُستخدم في تطبيقات ASP.NET لحفظ حالة التطبيق الحاليّة. لتفادي العبث بالبيانات، قيمة ViewState يجب أن تكون مُوقّعة بواسطة إقحام آلية MAC (Machine Authentication Check)
+					<a href="http://msdn.microsoft.com/en-us/library/ms972976.aspx#viewstate_topic12">[58]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 48 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>48</h1>
+				<h2>عدم استخدام X-Frame-Options</h2>
+				<p>
+					هذا الرأس يحدّد ما إذا كان ينبغي للمتصفّح أن يقدّم الصفحة داخل &lt;frame&gt; أو &lt;iframe&gt;. تطبيقات الويب يمكنها استخدام هذا لتجنّب هجمات الاصطياد بالنقر (Clickjacking) وذلك عن طريق ضمان أن المحتوى لا يتضمّن مواقعاً أخرى
+					<a href="http://en.wikipedia.org/wiki/Clickjacking">[59]</a>
+					<a href="http://en.wikipedia.org/wiki/X-FRAME-OPTIONS#Frame-Options">[60]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 49 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>49</h1>
+				<h2>تعطيل حماية XSS
+					<small>XSS Protection Disabled</small>
+				</h2>
+				<p>
+					تقنيّة حماية XSS البسيطة حاضرةً في كلّ متصفّحٍ حديث. تُعدّ هذه التقنيّة مفعلّة افتراضيّاً لكن يمكن تعطيلها من خلال تغيير قيمة رأس الرد “X-XSS-Protection" لتكون “0”
+					<a href="https://wiki.mozilla.org/Security/Features/XSS_Filter">[61]</a>
+					<a href="http://msdn.microsoft.com/en-us/library/dd565647%28v=vs.85%29.aspx">[62]</a>
+					<a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Common_non-standard_response_headers">[63]</a>.
+				</p>
+			</div>
+		</article>
+
+		<!-- 50 -->
+		<article>
+			<div class="block block-vulnerabile-item">
+				<h1>50</h1>
+				<h2>العثور على نقاط الضعف و المخاطر المشتركة
+					<small>CVE Finding</small>
+				</h2>
+				<p>
+					نظام CVE أو (The Common Vulnerabilities and Exposures) يوفّر طريقةً مرجعيّةً لثغراتٍ و مخاطرَ معروفة للعموم في أمن المعلومات
+					<a href="http://cve.mitre.org/">[64]</a>.
+				</p>
+			</div>
+		</article>
+
+		<footer>
+			<p>
+				<h4 class="date">16 ديسمبر 2014، 11:30 صباحاً</h4>
+			</p>
+			<p>
+				بعض الحقوق محفوظة.
+			</p>
+		</footer>
+
+	</div>
+
+	<script src="js/google-analytics.js"></script>
+
+</body>
+</html>
