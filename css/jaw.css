@@ -189,6 +189,10 @@ iframe{
 	width: 100%;
 }
 
+.right-list{
+	text-align: right;
+}
+
 /*@media (max-width: 768px){
 	article .ul-right li a {
 		display: block;
