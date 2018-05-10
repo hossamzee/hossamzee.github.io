@@ -179,6 +179,10 @@ footer ul li {
     max-width: 100%;
 }
 
+.full-width img{
+	width: 100%;
+}
+
 .figure p{
 	text-align: center; margin-top: 10px;
 	color: #666; font-size: 14px;
