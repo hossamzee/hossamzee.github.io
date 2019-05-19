@@ -18,9 +18,9 @@ body {
 }
 
 a {
-	color: #000;
+	color: #371bff;
 	text-decoration: none;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #9486ff;
 }
 
 ul, ol {
@@ -129,7 +129,7 @@ article .note a {
 }
 
 .date {
-	color: #ccc; padding: 2px;
+	color: #9486ff; padding: 2px;
 	/*background-color: #000;*/
 }
 
