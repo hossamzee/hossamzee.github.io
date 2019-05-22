@@ -6,7 +6,7 @@
 
 html {
 	direction: rtl;
-	font-family: "XBKhoramshahrRegular", sans-serif;
+	font-family: "XBKhoramshahrRegular", Helvetica, sans-serif;
 }
 
 body {
@@ -37,7 +37,7 @@ header img{
 }
 
 header h1 {
-	font-family: "XBYagutBold";
+	font-family: "XBKhoramshahrRegular";
 	font-size: 22px;
 }
 
@@ -80,12 +80,12 @@ article .heading {
 }
 
 article .heading h1 {
-	font-family: "XBYagutBold" !important;
+	font-family: "XBKhoramshahrRegular" !important;
 	font-size: 22px;
 }
 
 article .heading h3 {
-	font-family: "XBYagutBold" !important;
+	font-family: "XBKhoramshahrRegular" !important;
 	color: #666;
 }
 
@@ -102,6 +102,7 @@ article .note {
 
 article .note a {
 	color: tomato;
+	border-color: orange;
 }
 
 .block {
